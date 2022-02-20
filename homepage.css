@@ -1,0 +1,121 @@
+@import'https://fonts.googleapis.com/css?family=Oswald:400,700';
+@import'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import'https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+
+body{
+	margin: 0;
+}
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1{
+	display: inline;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 40px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#nav{
+	font-family: 'Montserrat',sans-serif;
+}
+.homered{
+	background-color: #5BD8F7;
+	padding: 30px 10px 18px 10px;
+}
+.divider{
+	background-color: #5BD8F7;
+	height: 5px;
+}
+.homeblack:hover{
+	background-color: #5BD8F7;
+	padding: 30px 10px 18px 10px;
+}
+.slider{
+	background-image: url('image/bgimg1.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 561px;
+	background-repeat: no-repeat;
+	margin:0;
+	padding: 0;
+}
+.homesub{
+	font-family: 'Raleway',sans-serif;
+	margin: 0;
+	padding: 9% 5% 0% 55%;
+	font-size: 18px;
+	color: #5BD8F7;
+}
+.homesho{
+	font-family: 'Raleway',sans-serif;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 75px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+}
+.homelon{
+	font-family: 'Oswald',sans-serif;
+	margin: 0% 0% 0% 55%;
+	font-size: 25px;
+	color: whitesmoke;
+	display: inline-block;
+}
+.buttonhome{
+	margin: 0% 0% 0% 55%;
+	margin-top: 10px;
+	background: #5BD8F7;
+	color: black;
+	border: none;
+	border-radius: 8px;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 900;
+}
+.users{
+	width: 200px;
+	height: 200px;
+	border:2px solid #5BD8F7;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(200px);
+	left: calc(15%);
+}
+
+
+.copyright-text{
+	font-size: 25px;
+	color: #7d7d7d;
+	margin-top: 8%;
+}
+.copyright-text span{
+    
+    color: red;
+    
+}
